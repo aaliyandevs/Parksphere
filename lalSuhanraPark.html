@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/parks.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <div class="navbarDesktop">
+    <div class="navbar-logo">
+      <a href="../index.html">
+        <img src=".././Images/logo.png" alt="">
+      </a>
+    </div>
+
+    <div class="navbar-items">
+      <ul>
+        <li><a href="../index.html" class="nav-link">Home</a></li>
+
+        <!-- Dropdown -->
+        <li class="dropdown">
+          <a href="../services.html" class="nav-link">National Parks<i class="ri-arrow-drop-down-line"></i></i></a>
+          <ul>
+            <li><a href="./SafariPark.html" class="nav-link">Safari Park</a></li>
+            <li><a href="./lalSuhanraPark.html" class="nav-link">Lal Suhanra Park</a></li>
+            <li><a href="./AyubPark.html" class="nav-link">Ayub Park</a></li>
+          </ul>
+        </li>
+        <li><a href="../about.html" class="nav-link">About Us</a></li>
+        <li><a href="../contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-toggle" id="toggle">
+      &#9776;
+    </div>
+  </div>
+  <!-- Navbar Mobile -->
+  <div id="navbarMobile" class="hide">
+    <p><a href="../index.html" class="nav-link">Home</a></p>
+    <p><a href="../services.html" class="nav-link">Services</a></p>
+    <p><a href="../about.html" class="nav-link">About</a></p>
+    <p><a href="../contact.html" class="nav-link">Contact</a></p>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- National Park details start-->
+  <section class="park-section">
+    <div class="park-image">
+      <img src=".././Images/park-image/lalSuhanra-park.jpg" alt="Mountain Lake Landscape" />
+    </div>
+    <div class="parks-content">
+      <h1>Lalsuhanra Park - Wild Beauty of Bahawalpur</h1>
+      <p class="parks-desc">
+        Located on the edge of the Cholistan Desert, Lalsuhanra National Park is one of Pakistan's largest and most
+        diverse parks. Spanning lush forests, arid plains, and freshwater lakes, the park offers a rare combination of
+        ecosystems that support a wide range of wildlife. It's a haven for nature lovers, birdwatchers, and those
+        seeking peaceful landscapes in Southern Punjab.
+      </p>
+      <div class="parks-chars">
+        <div class="chars">
+          <h3>Diverse Habitats</h3>
+          <p>
+            Lalsuhanra boasts an extraordinary mix of desert, forest, and wetland areas, making it a unique sanctuary
+            for a wide variety of plant and animal species.
+          </p>
+        </div>
+        <div class="chars">
+          <h3>Home to Rare Wildlife</h3>
+          <p>
+            The park is home to endangered species like the Chinkara gazelle and various desert reptiles, along with
+            hundreds of native and migratory birds.
+          </p>
+        </div>
+        <div class="chars">
+          <h3>Nature & Fun</h3>
+          <p>
+            Visitors can enjoy birdwatching, camel rides, nature walks, and photography in a peaceful natural setting.
+          </p>
+        </div>
+      </div>
+      <div class="more-details">
+        <p><strong>For more details:</strong></p>
+        <a href="../../Docx/LalSuhanra-park.docx" download>click here</a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- National Park details End-->
+
+  <!-- Animals/Birds Cards Start -->
+  <h2 class="title" data-aos="fade-up" data-aos-duration="800">Meet the Wildlife of LalSuhanra Park</h2>
+  <!-- Short form for container -->
+  <div class="card-cntr">
+
+    <!-- card 1 -->
+    <div class="animal-bird-card" data-aos="fade-up">
+      <img src=".././Images/Animals-Images/crocodile.jpg" alt="" class="animal-bird-img" />
+      <div class="animal-bird-content">
+        <div class="animal-bird-header">
+          <h2>Crocodile</h2>
+        </div>
+        <p>
+          Crocodiles are large aquatic reptiles with powerful jaws, rough skin, and a prehistoric look.
+        </p>
+        <hr />
+        <ul>
+          <li><strong>Scientific Name:</strong> Crocodylus niloticus</li>
+          <li><strong>Habitat:</strong> Rivers, lakes & wetlands</li>
+          <li><strong>Population in Park:</strong> 9 individuals</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="animal-bird-card" data-aos="fade-up">
+      <img src=".././Images/Birds-Images/eagle.jpg" alt="" class="animal-bird-img" />
+      <div class="animal-bird-content">
+        <div class="animal-bird-header">
+          <h2>Eagle</h2>
+        </div>
+        <p>
+          Eagles are powerful birds of prey with sharp talons, keen eyesight, and impressive wingspans.
+        </p>
+        <hr />
+        <ul>
+          <li><strong>Scientific Name:</strong> Haliaeetus leucocephalus</li>
+          <li><strong>Habitat:</strong> Forests, mountains in America</li>
+          <li><strong>Population in Park:</strong> 8 individuals</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+    <div class="animal-bird-card" data-aos="fade-up">
+      <img src=".././Images/Animals-Images/tiger.jpg" alt="" class="animal-bird-img" />
+      <div class="animal-bird-content">
+        <div class="animal-bird-header">
+          <h2>Tiger</h2>
+        </div>
+        <p>
+          The tiger is the largest species of big cat, known for its orange coat with black stripes and powerful build.
+        </p>
+        <hr />
+        <ul>
+          <li><strong>Scientific Name:</strong> Panthera tigris</li>
+          <li><strong>Habitat:</strong> Forests, grasslands & wetlands.</li>
+          <li><strong>Population in Park:</strong> 6 individuals</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card 4 -->
+    <div class="animal-bird-card" data-aos="fade-up">
+      <img src=".././Images/Birds-Images/parrot.jpg" alt="" class="animal-bird-img" />
+      <div class="animal-bird-content">
+        <div class="animal-bird-header">
+          <h2>Parrot</h2>
+        </div>
+        <p>
+          Parrots are brightly colored, highly intelligent birds known for their ability to mimic sounds and human
+          speech.
+        </p>
+        <hr />
+        <ul>
+          <li><strong>Scientific Name:</strong> Psittacus erithacus </li>
+          <li><strong>Habitat:</strong> Rainforests, savanna, woodland</li>
+          <li><strong>Population in Park:</strong> 15 individuals</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card 5 -->
+    <div class="animal-bird-card" data-aos="fade-up">
+      <img src=".././Images/Animals-Images/zebra.jpg" alt="" class="animal-bird-img" />
+      <div class="animal-bird-content">
+        <div class="animal-bird-header">
+          <h2>Zebra</h2>
+        </div>
+        <p>
+          Zebras are known for their distinctive black and white stripes and are related to horses.
+        </p>
+        <hr />
+        <ul>
+          <li><strong>Scientific Name:</strong> Equus quagga</li>
+          <li><strong>Habitat:</strong> Grasslands & woodlands</li>
+          <li><strong>Population in Park:</strong> 10 individuals</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- card 6 -->
+    <div class="animal-bird-card" data-aos="fade-up">
+      <img src=".././Images/Birds-Images/owl.jpg" alt="" class="animal-bird-img" />
+      <div class="animal-bird-content">
+        <div class="animal-bird-header">
+          <h2>Owl</h2>
+        </div>
+        <p>
+          Owls are nocturnal birds of prey with silent flight, forward-facing eyes, and excellent night vision.
+        </p>
+        <hr />
+        <ul>
+          <li><strong>Scientific Name:</strong> Bubo bubo</li>
+          <li><strong>Habitat:</strong> Forests, grasslands, mountains</li>
+          <li><strong>Population in Park:</strong> 11 individuals</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Animal Cards End -->
+
+  <!-- location and about start -->
+  <section class="contact-container">
+    <div class="contact-box">
+
+      <!-- Google Map (left side) -->
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.5283944710472!2d71.98260627466703!3d29.4425771468375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b8a615628b1d7%3A0x67eb1be50b7aa6e9!2sLal%20Suhanra%20National%20Park!5e0!3m2!1sen!2s!4v1753069906810!5m2!1sen!2s"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Contact Info (right side) -->
+      <div class="contact-info">
+        <div class="info-block">
+          <h3>Address</h3>
+          <p>Kudwala Road, Bahawalpur, Punjab, Pakistan</p>
+        </div>
+        <div class="info-block">
+          <h3>Lets Talk</h3>
+          <p>(primary); alternative: 0333 6354830</p>
+        </div>
+        <div class="info-block">
+          <h3>Sale Support</h3>
+          <p><a href="mailto:parksphere@gmail.com">dgwildlife@gmail.com</a></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- location and about end -->
+
+  <!-- Footer Start -->
+  <div class="page-wrapping">
+    <footer>
+      <div class="container">
+        <div class="col-1">
+          <a href="../index.html">
+            <img src=".././Images/logo.png" style="width: 5vw; filter: invert(1);">
+          </a>
+          <p>ParkSphere is your go-to portal for exploring national parks. Discover locations, check park
+            hours,
+            explore
+            activity options, and view available packages—all in one place. Plan your next adventure with
+            ease!
+          </p>
+        </div>
+        <div class="col-2">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h3>Our location</h3>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0170064238805!2d67.0718231756939!3d24.86326874514449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2sus!4v1752320415046!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-4">
+          <h3>Newsletter</h3>
+          <form class="footer-form">
+            <i class="ri-mail-line" id="mailbox"></i>
+            <input type="email" placeholder="Enter your email" required>
+            <button><i class="ri-arrow-right-line"></i></button>
+          </form>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="https://x.com/" target="_blank"><i class="ri-twitter-x-line"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <p>© 2025-2025 - All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <!-- Footer End -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/script.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init(); 
+  </script>
+</body>
+
+</html>

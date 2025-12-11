@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>National park web portal</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <div class="navbarDesktop">
+    <div class="navbar-logo">
+      <a href="./index.html">
+        <img src="./Images/logo.png" alt="">
+      </a>
+    </div>
+
+    <div class="navbar-items">
+      <ul>
+        <li><a href="./index.html" class="nav-link">Home</a></li>
+
+        <!-- Dropdown -->
+        <li class="dropdown">
+          <a href="./services.html" class="nav-link">National Parks<i class="ri-arrow-drop-down-line"></i></i></a>
+          <ul>
+            <li><a href="./parks/SafariPark.html" class="nav-link">Safari Park</a></li>
+            <li><a href="./parks/lalSuhanraPark.html" class="nav-link">Lal Suhanra Park</a></li>
+            <li><a href="./parks/AyubPark.html" class="nav-link">Ayub Park</a></li>
+          </ul>
+        </li>
+        <li><a href="./about.html" class="nav-link">About Us</a></li>
+        <li><a href="./contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-toggle" id="toggle">
+      &#9776;
+    </div>
+  </div>
+  <!-- Navbar Mobile -->
+  <div id="navbarMobile" class="hide">
+    <p><a href="./index.html" class="nav-link">Home</a></p>
+    <p><a href="./services.html" class="nav-link">Services</a></p>
+    <p><a href="./about.html" class="nav-link">About</a></p>
+    <p><a href="./contact.html" class="nav-link">Contact</a></p>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Slider Start -->
+  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+    <div class="carousel-cell" style="background-image: url('./Images/Slider/img1.jpg');"></div>
+    <div class="carousel-cell" style="background-image: url('./Images/Slider/img2.jpg');"></div>
+    <div class="carousel-cell" style="background-image: url('./Images/Slider/img3.jpg');"></div>
+  </div>
+  <!-- Slider End -->
+
+  <!-- National parks Start -->
+  <h2 class="title" data-aos="fade-up" data-aos-duration="800">National Parks</h2>
+
+  <div class="card-container">
+    <div class="card" data-aos="fade-right" data-aos-duration="1500">
+      <img src="./Images/Services-images/img1.jpg" alt="">
+      <div class="overlay">
+        <h2>Karachi Safari Park</h2>
+        <p>An exciting urban safari experience where you can see lions, elephants, and zebras. The park offers a lake,
+          chairlift rides, animal enclosures, and kid-friendly areas with fun outdoor activities.</p>
+        <a href="./parks/SafariPark.html">LEARN MORE →</a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-up" data-aos-duration="1500">
+      <img src="./Images/Services-images/img2.jpg" alt="">
+      <div class="overlay">
+        <h2>Lal Suhanra National Park</h2>
+        <p>One of Pakistan's largest parks, featuring desert, forest, and wetland zones. Home to blackbucks, deer, and
+          rare birds. Ideal for family picnics, wildlife viewing, and peaceful nature exploration.</p>
+        <a href="./parks/lalSuhanraPark.html">LEARN MORE →</a>
+      </div>
+    </div>
+
+    <div class="card" data-aos="fade-left" data-aos-duration="1500">
+      <img src="./Images/Services-images/img3.jpg" alt="">
+      <div class="overlay">
+        <h2>Ayub National Park</h2>
+        <p>A historic park with a mini-zoo, open green spaces, and wildlife like deer, peacocks, and monkeys. Families
+          enjoy gardens, walking tracks, and a variety of children's entertainment zones.</p>
+        <a href="./parks/AyubPark.html">LEARN MORE →</a>
+      </div>
+    </div>
+  </div>
+  <!-- National parks End -->
+
+  <!-- services Start -->
+  <div class="Services">
+    <h2>Benefits of ParkSphere</h2>
+    <div class="info-grid" data-aos="fade-up" data-aos-duration="800">
+      <div class="info-box">
+        <img src="./Images/Services-icons/img1.png" alt="">
+        <h3>Complete Park Coverage</h3>
+        <p>Discover detailed info on locations, facilities, and rules—everything in one spot.</p>
+      </div>
+      <div class="info-box">
+        <img src="./Images/Services-icons/img2.png" alt="">
+        <h3>Smart Navigation Tools</h3>
+        <p>Plan your visit easily with interactive maps and simple, user-focused design.</p>
+      </div>
+      <div class="info-box">
+        <img src="./Images/Services-icons/img3.png" alt="">
+        <h3>Live Updates & Alerts</h3>
+        <p>Stay ahead with real-time weather, event, and closure notifications.</p>
+      </div>
+      <div class="info-box">
+        <img src="./Images/Services-icons/img4.png" alt="">
+        <h3>Community & Insights</h3>
+        <p>Read reviews, view photos, and connect with fellow park visitors.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Services End -->
+
+  <!-- About section start -->
+  <div class="About-section">
+    <div class="section-image" data-aos="fade-right" data-aos-duration="1500">
+      <img src="./Images/About-image.jpg" alt="">
+    </div>
+    <div class="section-text" data-aos="fade-left" data-aos-duration="1500">
+      <h1>Who we Are?</h1>
+      <p>ParkSphere is an online portal which showcases Pakistan's national parks as natural zoos for animals and
+        birds.
+        It provides park information, wildlife information, and visitor information. Most parks feature activities for
+        children such as wildlife excursions and play zones, as well as on-site cafeterias for a leisurely visit. For
+        recreation or education, ParkSphere assists families in bonding with nature in an interesting manner.
+      </p>
+      <a href="" class="about-btn">Explore Now &#8594;</a>
+    </div>
+  </div>
+  <!-- About section End -->
+
+  <!-- Contact Start -->
+  <section class="contact-container">
+    <div class="contact-box" data-aos="fade-up" data-aos-duration="800">
+      <div class="contact-form">
+        <h2>Send Us A Message</h2>
+        <form>
+          <input type="email" placeholder="Your Email Address" required>
+          <textarea placeholder="How Can We Help?" rows="6" required></textarea>
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <div class="info-block">
+          <h3>Address</h3>
+          <p>511, Suite # 202-203, Main Shahra-e-Faisal, near Lal Kothi (house), Karachi, 75400</p>
+        </div>
+        <div class="info-block">
+          <h3>Lets Talk</h3>
+          <p>+92 3102482057</p>
+        </div>
+        <div class="info-block">
+          <h3>Sale Support</h3>
+          <p><a href="mailto:contact@example.com">parksphere@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-cntr">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28960.13718626034!2d67.03628927431639!3d24.863263900000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2s!4v1753068600932!5m2!1sen!2s"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <!-- Contact End -->
+
+  <!-- Footer Start -->
+  <div class="page-wrapping">
+    <footer>
+      <div class="container">
+        <div class="col-1">
+          <a href="./index.html">
+            <img src="./Images/logo.png" style="width: 5vw; filter: invert(1);">
+          </a>
+          <p>ParkSphere is your go-to portal for exploring national parks. Discover locations, check park
+            hours,
+            explore
+            activity options, and view available packages—all in one place. Plan your next adventure with
+            ease!
+          </p>
+        </div>
+        <div class="col-2">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h3>Our location</h3>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0170064238805!2d67.0718231756939!3d24.86326874514449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2sus!4v1752320415046!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-4">
+          <h3>Newsletter</h3>
+          <form class="footer-form">
+            <i class="ri-mail-line" id="mailbox"></i>
+            <input type="email" placeholder="Enter your email" required>
+            <button><i class="ri-arrow-right-line"></i></button>
+          </form>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="https://x.com/" target="_blank"><i class="ri-twitter-x-line"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <p>© 2025-2025 - All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <!-- Footer End -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/script.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    AOS.init(); 
+  </script>
+</body>
+
+</html>
